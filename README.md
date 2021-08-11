@@ -17,7 +17,7 @@
 
 ## Overview
 
-_**Andreallt Portfolio** Passionate and experienced in visual design and media. This portfolio showcases some of the projects that I have collaborated on or developed.
+**Andreallt Portfolio** Passionate and experienced in visual design and media. This portfolio showcases some of the projects that I have collaborated on or developed.
 
 
 <br>
@@ -53,9 +53,6 @@ _**Andreallt Portfolio** Passionate and experienced in visual design and media. 
 [Component Tree Sample](https://whimsical.com/getting-started-NfvyNb8MiAUbUi8E78b94@3CRerdhrAw92gfjeTKawjNQ7)
 
 #### Component File Structure
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
-
 ``` structure
 
 src
