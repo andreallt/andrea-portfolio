@@ -37,7 +37,11 @@
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       |  TBD                                       |
+|     React        |  Front-end development with Javascript     |
+|     Axios        |  Http request for front-end                |
+|      CSS         |  Styling front-end                         |
+|  React Router    |  Connect components using links and routes |
+|  Ruby on Rails   |  Back-end server/api                       |
 
 
 <br>
