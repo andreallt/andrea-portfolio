@@ -45,10 +45,10 @@
 ### Front End
 
 #### Wireframes
-[Desktop](https://www.figma.com/file/RNL5q22SZUOskekNsOAqYf/Andrea-Llano-s-team-library?node-id=1%3A2)
+[Desktop & Mobile](https://www.figma.com/file/RNL5q22SZUOskekNsOAqYf/Andrea-Llano-s-team-library?node-id=1%3A2)
 
 #### Component Tree
-[Component Tree Sample](https://whimsical.com/getting-started-NfvyNb8MiAUbUi8E78b94@3CRerdhrAw92gfjeTKawjNQ7)
+[Component Tree](https://whimsical.com/getting-started-NfvyNb8MiAUbUi8E78b94@3CRerdhrAw92gfjeTKawjNQ7)
 
 #### Component File Structure
 ``` structure
