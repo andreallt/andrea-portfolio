@@ -1,25 +1,45 @@
 import api from "./apiConfig"
 
 export const getAllDevelopers = async () => {
+  try {
   const res = await api.get("/developer_projects")
   return res.data
+}  catch (error) {
+  throw error
+}
 }
 
-export const getOneDeveloper = async (developerID) => {
-  const res = await api.get(`/developer_projects/${developerID}`)
+export const getDeveloper = async id => {
+  try {
+  const res = await api.get(`/developer_projects/${id}`)
   return res.data
+}  catch (error) {
+  throw error
+}
 }
 
-export const deleteDeveloper = async (developerID) => {
-  await api.delete(`/developer_projects/${developerID}`)
+export const deleteDeveloper = async id => {
+  try {
+  await api.delete(`/developer_projects/${id}`)
+}  catch (error) {
+  throw error
+}
 }
 
-export const createDeveloper = async (developerData) => {
-  const res = await api.post("/developer_projects", { developer: developerData })
+export const createDeveloper = async devData => {
+  try {
+  const res = await api.post("/developer_projects", devData)
   return res.data
+}  catch (error) {
+  throw error
+}
 }
 
-export const updateDeveloper = async (developerData, developerID) => {
-  const res = await api.put(`/developer_projects/${developerID}`, { developer: developerData })
+export const updateDeveloper = async (id, devData) => {
+  try {
+  const res = await api.put(`/developer_projects/${id}`, devData)
   return res.data
+}catch (error) {
+  throw error
+}
 }

@@ -1,7 +1,7 @@
-import { Design } from "../../components";
-import { Layout } from "../../components";
 import { useState, useEffect } from "react";
-import { getAllDesigns } from "../../services/DesignProject";
+import Design from "../../components/Design/Design.jsx";
+import Layout from "../../components/Layout/Layout.jsx";
+import { getAllDesigns } from "../../service/designProject";
 
 const DesignProjects = (props) => {
   const [designs, setDesigns] = useState([]);
@@ -17,9 +17,9 @@ const DesignProjects = (props) => {
   return (
     <Layout>
    <div className='designs'>
-        {setDesigns.map((design, index) => {
+        {designs.map((design, index) => {
           return (
-            <Design
+            < Design
               name={design.name}
               image_1={design.image_1}
               category={design.category}
@@ -28,9 +28,6 @@ const DesignProjects = (props) => {
           )
         })}
       </div>
-
-
-
     </Layout>
   )
 }

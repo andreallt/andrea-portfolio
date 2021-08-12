@@ -5,21 +5,21 @@ export const getAllDesigns = async () => {
   return res.data
 }
 
-export const getOneDesign = async (designID) => {
-  const res = await api.get(`/design_projects/${designID}`)
+export const getDesign = async id => {
+  const res = await api.get(`/design_projects/${id}`)
   return res.data
 }
 
-export const deleteDesign = async (designID) => {
-  await api.delete(`/design_projects/${designID}`)
+export const deleteDesign = async id => {
+  await api.delete(`/design_projects/${id}`)
 }
 
-export const createDesign = async (designData) => {
-  const res = await api.post("/design_projects", { design: designData })
+export const createDesign = async (desData) => {
+  const res = await api.post("/design_projects", desData )
   return res.data
 }
 
-export const updateDesign = async (designData, designID) => {
-  const res = await api.put(`/design_projects/${designID}`, { design: designData })
+export const updateDesign = async (id, desData) => {
+  const res = await api.put(`/design_projects/${id}`, desData)
   return res.data
 }
