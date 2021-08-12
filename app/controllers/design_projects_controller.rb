@@ -1,0 +1,2 @@
+class DesignProjectsController < ApplicationController
+end
