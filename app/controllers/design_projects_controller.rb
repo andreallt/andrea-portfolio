@@ -1,6 +1,6 @@
 class DesignProjectsController < ApplicationController
   before_action :authorize_request, only: [:update, :create, :destroy]
-  before_action :set_design_projects, only: [:show, :update, :destroy]
+  before_action :set_design_project, only: [:show, :update, :destroy]
 
   # GET /admins
   def index
@@ -27,7 +27,7 @@ class DesignProjectsController < ApplicationController
 
   # PATCH/PUT /admins/1
   def update
-    if @design_project.update(design_projects_params)
+    if @design_project.update(design_project_params)
       render json: @design_project
     else
       render json: @design_project.errors, status: :unprocessable_entity
@@ -47,8 +47,8 @@ class DesignProjectsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def design_project_params
-      params.require(:design_project).permit(:name, :email, :image_1, :image_2, :image_3,  :e_url, :detail, :category, :admin_id)
+      params.require(:design_project).permit(:name, :image_1, :image_2, :image_3, :e_url, :detail, :category, :admin_id)
     end
 
-end
+
 end
