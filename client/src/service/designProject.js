@@ -14,12 +14,12 @@ export const deleteDesign = async id => {
   await api.delete(`/design_projects/${id}`)
 }
 
-export const createDesign = async (design) => {
-  const res = await api.post("/design_projects", design )
+export const createDesign = async (designData) => {
+  const res = await api.post("/design_projects",  { design_project: designData })
   return res.data
 }
 
 export const updateDesign = async (id, design) => {
-  const res = await api.put(`/design_projects/${id}`, design)
+  const res = await api.put(`/design_projects/${id}`, { design: design })
   return res.data
 }

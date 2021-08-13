@@ -1,6 +1,6 @@
 class DesignProjectsController < ApplicationController
-  before_action :authorize_request, only: [:update, :create, :destroy]
   before_action :set_design_project, only: [:show, :update, :destroy]
+  before_action :authorize_request, only: [:update, :create, :destroy]
 
   # GET /admins
   def index
@@ -16,12 +16,12 @@ class DesignProjectsController < ApplicationController
 
   # POST /admins
   def create
-    @design_project = DesignProject.new(design_project_params)
+    design = DesignProject.new(design_project_params)
 
-    if @design_project.save
-      render json: @design_project, status: :created, location: @design_project
+    if design.save
+      render json: design, status: :created
     else
-      render json: @design_project.errors, status: :unprocessable_entity
+      render json: design.errors, status: :unprocessable_entity
     end
   end
 

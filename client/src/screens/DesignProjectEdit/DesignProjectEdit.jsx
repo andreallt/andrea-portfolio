@@ -14,7 +14,7 @@ const DesignProjectEdit = (props) => {
     detail:"",
     category:""
   });
- 
+
   const [isUpdated, setUpdated] = useState(false);
   let {id} = useParams();
 
