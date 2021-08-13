@@ -24,7 +24,7 @@ const DevProjectDetail = (props) => {
  }
 
   return(
-    <Layout>
+    <Layout admin={props.admin}>
       <div className="dev-detail">
                 <div className="name">{devDetail.name}</div>
                 <img className="dev-detail-image" src={devDetail.image_url} alt={devDetail.name} />

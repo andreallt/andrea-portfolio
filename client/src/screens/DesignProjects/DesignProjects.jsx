@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Design from "../../components/Design/Design.jsx";
 import Layout from "../../components/Layout/Layout.jsx";
-import { getAllDesigns } from "../../service/designProject";
+import { getAllDesigns, deleteDesign } from "../../service/designProject";
 
 const DesignProjects = (props) => {
   const [designs, setDesigns] = useState([]);
@@ -15,7 +15,7 @@ const DesignProjects = (props) => {
   }, [])
 
   return (
-    <Layout>
+    <Layout admin={props.admin}>
    <div className='designs'>
         {designs.map((design, index) => {
           return (

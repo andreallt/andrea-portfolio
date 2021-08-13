@@ -33,12 +33,12 @@ const DesignProjectAdd = (props) => {
     setCreated(created);
   };
 
-  // if(isCreated){
-  //   return <Redirect to={`/design_projects`} />;
-  // }
+  if(isCreated){
+    return <Redirect to={`/design_projects`} />;
+  }
 
   return (
-    <Layout>
+    <Layout admin={props.admin}>
       <div>
         <form onSubmit={handleSubmit} className="add-form">
           <input
