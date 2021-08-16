@@ -14,7 +14,7 @@
   height: 70vh;
   background-color: white;
   width: 60vw;
-  margin: 0 0 0 42%;
+  margin: 0 5px 0 42%;
 }
 
 
@@ -32,4 +32,10 @@ input textarea{
 
 #save-edit{
   width: 90px;
-}
+  margin: 0 -95px 0;
+  color: black;
+  background-color: #E3AD6D;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  height: 20px;

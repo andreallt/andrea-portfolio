@@ -92,7 +92,7 @@ const DesignProjectEdit = (props) => {
             onChange={handleChange}
           />
           <button id="save-edit" type="submit" className="save-button">
-            Save
+            SAVE
           </button>
         </form>
         </section>
