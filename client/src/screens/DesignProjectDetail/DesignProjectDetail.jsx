@@ -12,7 +12,6 @@ const DesignProjectDetail = (props) => {
   useEffect(() => {
     const fetchDesDetail = async () => {
       const desDetail = await getDesign(id);
-      console.log(desDetail)
       setDesDetail(desDetail);
       setLoaded(true);
     };
