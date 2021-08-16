@@ -1,15 +1,14 @@
 .dev-detail{
 display: grid;
 grid-template-columns: .5fr 3fr;
-margin: 200px 15px 0 15px;
-width: 100vw;
+margin: 150px 15px 0 15px;
 column-gap: 20px;
 }
 
 .dev-left{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: right;
   align-items: flex-end;
   margin: 100px 0 0 20px;
@@ -17,15 +16,15 @@ column-gap: 20px;
 }
 
 .library{
-  font-size: 25px;
+  font-size: 21px;
   font-style: italic;
-  width: 40vw;
+  width: 30vw;
   color: #5F87EC;
 }
 
 .dev-text{
   width: 30vw;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 
@@ -36,7 +35,7 @@ column-gap: 20px;
 
 .dev-dname{
   font-size: 30px;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   font-style: italic;
 }
 

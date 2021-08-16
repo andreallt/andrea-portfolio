@@ -5,11 +5,11 @@ display: flex;
 .designs{
   display: flex;
   justify-content: space-between;
-  margin: 250px 40px;
+  margin: 250px 20px;
 }
 
 .design-image{
-width: 450px;
+width: 98%
 }
 
 .category{

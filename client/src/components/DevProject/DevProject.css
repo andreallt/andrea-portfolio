@@ -11,13 +11,14 @@
   }
   
   .dev-image{
-  width: 95%;
+  width: 98%;
   margin-top: -15px;
   }
   
   .dev-name{
     font-style: italic;
     font-size: 20px;
+    margin: 0 0px 12px 4px;
   }
 
   .d-buttons{
@@ -28,7 +29,7 @@
     height: 20px;
     width: 80px;
     text-transform: capitalize;
-    margin: 10px;
+    margin: 10px 30px 5px 5px;
     background-color: white;
     border: none;
     border-radius: 3px;
