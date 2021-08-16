@@ -5,3 +5,9 @@
   width: 70vw;
   margin-left: 29vw;
 }
+
+.add-form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
