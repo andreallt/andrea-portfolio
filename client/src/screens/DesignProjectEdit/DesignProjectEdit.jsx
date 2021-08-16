@@ -46,12 +46,13 @@ const DesignProjectEdit = (props) => {
 
   return (
     <Layout admin={props.admin}>
-      <div>
+      <div className="edit-design">
         <img
           className="edit-design-image"
           src={design.image_1}
           alt={design.name}
         />
+        <section className="form-div">
         <form className="edit-form" onSubmit={handleSubmit}>
           <input
             className="edit-image-1"
@@ -90,10 +91,11 @@ const DesignProjectEdit = (props) => {
             name="image_3"
             onChange={handleChange}
           />
-          <button type="submit" className="save-button">
+          <button id="save-edit" type="submit" className="save-button">
             Save
           </button>
         </form>
+        </section>
       </div>
     </Layout>
   );

@@ -1,3 +1,7 @@
+.edit-design{
+  margin: 150px 0 50px 0;
+}
+
 .edit-design-image {
   width: 600px;
   height: 150px;
@@ -5,9 +9,18 @@
   object-position: 10% 60%;
 }
 
+.form-div{
+display: flex;
+align-items: flex-end;
+}
+
 .edit-form{
   display: flex;
   flex-direction: column;
   width: 60vw;
   background-color: white;
+}
+
+#save-edit{
+  width: 90px;
 }
