@@ -35,12 +35,12 @@ function App() {
           <Logout setAdmin={setAdmin} />
         </Route>
       <Route exact path="/design_projects">
-        <DesignProjects/>
+        <DesignProjects admin={admin}/>
       </Route>
       <Route exact path="/add" component={DesignProjectAdd} admin={admin}/>
       <Route exact path="/design_projects/:id" component={DesignProjectDetail} admin={admin} />
       <Route exact path="/design_projects/:id/edit" component={DesignProjectEdit} admin={admin}/>
-      <Route exact path="/developer_projects">
+      <Route exact path="/developer_projects" >
         <DevProjects admin={admin}/>
       </Route>
       <Route exact path="/developer_projects/:id" component={DevProjectDetail} admin={admin}/>

@@ -52,7 +52,7 @@ const DesignProjectEdit = (props) => {
           src={design.image_1}
           alt={design.name}
         />
-        <form onSubmit={handleSubmit}>
+        <form className="edit-form" onSubmit={handleSubmit}>
           <input
             className="edit-image-1"
             placeholder="Main Image"

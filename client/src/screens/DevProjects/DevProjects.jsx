@@ -15,7 +15,7 @@ const DevProjects = (props) => {
   }, [])
 
   return (
-    <Layout admin={props.admin}>
+    <Layout admin={props.admin} >
    <div className='dev-projects'>
         {devs.map((dev, index) => {
           return (

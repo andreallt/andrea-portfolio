@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Design from "../../components/Design/Design.jsx";
 import Layout from "../../components/Layout/Layout.jsx";
-import { getAllDesigns, deleteDesign } from "../../service/designProject";
+import { getAllDesigns} from "../../service/designProject";
 
 const DesignProjects = (props) => {
   const [designs, setDesigns] = useState([]);
