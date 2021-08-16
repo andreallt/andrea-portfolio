@@ -11,16 +11,17 @@
 
 .form-grid{
   display: grid;
-  columns: 1fr 3fr;
+  grid-template-columns: 1fr 3fr;
   width: 70vw;
+  margin-left: 29vw;
 }
 
 .form-div{
   display: flex;
   height: 70vh;
   background-color: white;
-  width: 60vw;
-  margin: 0 5px 0 42%;
+  width: 57vw;
+  margin: 0 0 42%;
 }
 
 
@@ -56,11 +57,12 @@ input textarea{
 }
 
 .lable-div{
+  width: 9vw;
+  height: 70vh;
   display: flex;
   flex-direction: column;
-  margin: 0 -100px 0;
-  color: white;
+  color: #fff;
   font-style: italic;
   font-size: small;
-  justify-content: space-around;
+  align-items: flex-end;
 }
