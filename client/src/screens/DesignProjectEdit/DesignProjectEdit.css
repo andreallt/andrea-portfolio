@@ -39,3 +39,9 @@ input textarea{
   border-radius: 3px;
   font-weight: 700;
   height: 20px;
+}
+
+#save-edit:hover{
+  color: #E3AD6D;
+  background-color: white;
+}
