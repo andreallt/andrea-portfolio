@@ -52,9 +52,17 @@ const DesignProjectEdit = (props) => {
           src={design.image_1}
           alt={design.name}
         />
+        <div className="form-grid">
+        <section className="lable-div">
+        <h3> Image  --> </h3>
+        <h3> Detail  --> </h3>
+        <h3> Link   --> </h3>
+        <h3> + Image --> </h3>
+        <h3> + Image --> </h3>
+        </section>
+
         <section className="form-div">
         <form className="edit-form" onSubmit={handleSubmit}>
-          <label> Image  --> </label>
           <input
             className="edit-image-1"
             placeholder="Main Image"
@@ -63,7 +71,7 @@ const DesignProjectEdit = (props) => {
             required
             onChange={handleChange}
           />
-          <label> Detail  --> </label>
+          
           <textarea
             className="edit-detail"
             placeholder="Detail"
@@ -72,7 +80,7 @@ const DesignProjectEdit = (props) => {
             required
             onChange={handleChange}
           />
-          <label> Link   --> </label>
+
           <input
             className="e-url"
             placeholder="Image"
@@ -80,7 +88,7 @@ const DesignProjectEdit = (props) => {
             name="e_url"
             onChange={handleChange}
           />
-          <label> + Image --> </label>
+    
           <input
             className="edit-image-2"
             placeholder="Image"
@@ -88,7 +96,7 @@ const DesignProjectEdit = (props) => {
             name="image_2"
             onChange={handleChange}
           />
-          <label> + Image --> </label>
+
           <input
             className="edit-image-3"
             placeholder="Image"
@@ -101,6 +109,7 @@ const DesignProjectEdit = (props) => {
           </button>
         </form>
         </section>
+        </div>
       </div>
     </Layout>
   );
