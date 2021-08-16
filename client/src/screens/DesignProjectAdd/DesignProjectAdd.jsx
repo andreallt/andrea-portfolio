@@ -39,9 +39,11 @@ const DesignProjectAdd = (props) => {
 
   return (
     <Layout admin={props.admin}>
-      <div className="form-grid">
+      <div className="addform-grid">
         <section className="lable-div">
-        <h3> Image  --> </h3>
+        <h3> Name      --> </h3>
+        <h3> Category  --> </h3>
+        <h3> Image   --> </h3>
         <h3> Detail  --> </h3>
         <h3> Link    --> </h3>
         <h3> + Image --> </h3>
