@@ -103,7 +103,7 @@ const DesignProjectAdd = (props) => {
             name="image_3"
             onChange={handleChange}
           />
-          <button type="submit" className="submit-button">
+          <button id="save-add" type="submit" >
             Submit
           </button>
         </form>
