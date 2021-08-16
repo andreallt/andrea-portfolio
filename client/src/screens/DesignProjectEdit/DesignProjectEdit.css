@@ -33,11 +33,18 @@
     justify-content: space-around;
 }
 
-input, textarea {
+input{
     background-color: #a3a3a3;
     text-decoration: none;
     border: none;
     font-family: 'Istok Web';
+}
+
+textarea {
+  background-color: #a3a3a3;
+  text-decoration: none;
+  border: none;
+  font-family: 'Istok Web';
 }
 
 #save-edit{
