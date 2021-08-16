@@ -39,7 +39,14 @@ const DesignProjectAdd = (props) => {
 
   return (
     <Layout admin={props.admin}>
-      <div>
+      <div className="form-grid">
+        <section className="lable-div">
+        <h3> Image  --> </h3>
+        <h3> Detail  --> </h3>
+        <h3> Link    --> </h3>
+        <h3> + Image --> </h3>
+        <h3> + Image --> </h3>
+        </section>
         <form onSubmit={handleSubmit} className="add-form">
           <input
             className="add-name"

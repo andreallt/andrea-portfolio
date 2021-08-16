@@ -21,7 +21,7 @@
   height: 70vh;
   background-color: white;
   width: 57vw;
-  margin: 0 0 42%;
+  /* margin: 0 0 42%; */
 }
 
 
@@ -72,4 +72,5 @@ textarea {
   font-style: italic;
   font-size: small;
   align-items: flex-end;
+  justify-content: space-between;
 }
