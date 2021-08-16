@@ -42,7 +42,7 @@ DesignProject.create!(name: "Amateur Hour is Over",
                       image_3: "https://imgur.com/zMd9Tge.png",
                       e_url: "",
                       detail:"The challenge consisted of a single poster for the 2019 KIA Stinger with the tagline --fuel by youth. Amateur hour is over concept was born on KIA's belief in a young automobile brand that does not sacrifice price over quality and looks. The KIA Stinger represents the new adult. The one that does not settle for the conventional. He keeps on living and exploring, not losing himself in the status quo. KIA Stinger is for a new generation of professionals.",
-                      category: "Advrtising",
+                      category: "Advertising",
                       admin: andy) 
 
 

@@ -1,13 +1,11 @@
 import "./Layout.css";
 import NavBar from "../Navbar/Navbar.jsx";
 import Footer from "../Footer/Footer.jsx"
+import Header from "../Header/Header";
 
 const Layout = (props) => (
   <div className="Layout">
-    <header>
-      <img src="https://imgur.com/QRKRsnF.png" alt="linkedin"/>
-      <img src="https://imgur.com/GQHDRqn.png" alt="github"/>
-    </header>
+    <Header admin={props.admin}/>
     <NavBar admin={props.admin} />
     <div className="layout-children">{props.children}</div>
     <Footer />

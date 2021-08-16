@@ -24,6 +24,7 @@ const DesignProjects = (props) => {
               image_1={design.image_1}
               category={design.category}
               key={index}
+              id={design.id}
             />
           )
         })}

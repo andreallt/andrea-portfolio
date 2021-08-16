@@ -12,6 +12,7 @@ const DesignProjectDetail = (props) => {
   useEffect(() => {
     const fetchDesDetail = async () => {
       const desDetail = await getDesign(id);
+      console.log(desDetail)
       setDesDetail(desDetail);
       setLoaded(true);
     };
@@ -25,36 +26,44 @@ const DesignProjectDetail = (props) => {
   return (
     <Layout admin={props.admin}>
       <div className="des-detail">
-
-
-        <div className="button-container">
+      <div className="button-container">
           <Link
-            className="edit-button"
+            className="e-button"
             to={`/design_projects/${desDetail.id}/edit`}
           >
             Edit
           </Link>
-          <button
-            className="delete-button"
+          <Link
+            className="e-button"
             onClick={() => deleteDesign(desDetail.id)}
           >
             Delete
-          </button>
+          </Link>
         </div>
 
-
+        <div className="main">
         <img
           className="main-image"
           src={desDetail.image_1}
           alt={desDetail.name}
         />
-        <div className="detail">{desDetail.detail}</div>
-        <iframe src={desDetail.e_url} className="e-media"></iframe>
+        <p className="detail">{desDetail.detail}</p>
+        </div>
+      
+       {desDetail.e_url == "" ? <div ></div> : <iframe src={desDetail.e_url} className="e-media"></iframe>}
+        
+        <div className="images">
         <img
-          className="main-image"
+          className="e-image"
           src={desDetail.image_2}
           alt={desDetail.name}
         />
+        <img
+          className="e-image"
+          src={desDetail.image_3}
+          alt={desDetail.name}
+        />
+        </div>
       </div>
     </Layout>
   );

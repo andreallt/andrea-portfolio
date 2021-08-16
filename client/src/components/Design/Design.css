@@ -1,0 +1,18 @@
+.design-p{
+display: flex;
+}
+
+.designs{
+  display: flex;
+  justify-content: space-between;
+  margin: 250px 40px;
+}
+
+.design-image{
+width: 450px;
+}
+
+.category{
+  font-style: italic;
+  margin-top: -5px;
+}

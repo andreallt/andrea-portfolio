@@ -1,0 +1,45 @@
+.dev-detail{
+display: grid;
+grid-template-columns: .5fr 3fr;
+margin: 200px 15px 0 15px;
+width: 100vw;
+column-gap: 20px;
+}
+
+.dev-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  align-items: flex-end;
+  margin: 100px 0 0 20px;
+  width: 40vw;
+}
+
+.library{
+  font-size: 25px;
+  font-style: italic;
+  width: 40vw;
+  color: #5F87EC;
+}
+
+.dev-text{
+  width: 30vw;
+  font-size: 20px;
+}
+
+
+.dev-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.dev-dname{
+  font-size: 30px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.dev-detail-image{
+  width: 100%;
+}

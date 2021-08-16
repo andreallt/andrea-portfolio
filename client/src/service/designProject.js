@@ -19,7 +19,7 @@ export const createDesign = async (designData) => {
   return res.data
 }
 
-export const updateDesign = async (id, design) => {
-  const res = await api.put(`/design_projects/${id}`, { design: design })
+export const updateDesign = async (id, designData) => {
+  const res = await api.put(`/design_projects/${id}`, { design_project: designData })
   return res.data
 }
