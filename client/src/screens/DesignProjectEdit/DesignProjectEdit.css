@@ -33,7 +33,7 @@
     justify-content: space-around;
 }
 
-input textarea{
+input, textarea {
     background-color: #a3a3a3;
     text-decoration: none;
     border: none;
@@ -42,7 +42,7 @@ input textarea{
 
 #save-edit{
   width: 90px;
-  margin: 0 -95px 0;
+  margin: 0  0 -55px 0;
   color: black;
   background-color: #E3AD6D;
   border: none;

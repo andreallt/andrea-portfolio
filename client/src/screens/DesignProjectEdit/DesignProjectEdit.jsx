@@ -56,7 +56,7 @@ const DesignProjectEdit = (props) => {
         <section className="lable-div">
         <h3> Image  --> </h3>
         <h3> Detail  --> </h3>
-        <h3> Link   --> </h3>
+        <h3> Link    --> </h3>
         <h3> + Image --> </h3>
         <h3> + Image --> </h3>
         </section>
