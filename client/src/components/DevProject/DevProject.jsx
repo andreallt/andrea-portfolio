@@ -4,14 +4,16 @@ import "./DevProject.css";
 const DevProject = (props) => {
   return (
     <>
-      <Link className="devProject" to={`/developer_projects/${props.id}`}>
-        <div>
-          <p className="name">{props.name}</p>
+        <div className="dev-project">
+      <Link className="develop" to={`/developer_projects/${props.id}`}>
+          <p className="dev-name">{props.name}</p>
           <img src={props.image_url} alt={props.name} className="dev-image" />
-          <p className="git">{props.github_url}</p>
-          <p className="web">{props.web_url}</p>
+      </Link>    
+      <div className="d-buttons">
+          <button herf={props.github_url} className="dev-button">GITHUB</button>
+          <button herf={props.web_url} className="dev-button">SITE</button>
+       </div>
           </div>
-      </Link>
     </>
   )
 }

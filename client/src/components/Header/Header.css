@@ -1,0 +1,42 @@
+header{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+}
+
+.welcome{
+  font-style: italic;
+  font-size: 19px;
+}
+
+.left{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  border-right: solid white 1px;
+  padding: 50px 50px 50px 5px;
+  margin-left: 20px;
+}
+
+.right{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.link-logos{
+width: 30px;
+margin: 0 15px 0 15px;
+}
+
+
+#andy{
+  color: #E3AD6D;
+  margin:  0 15px;
+  font-weight: 900;
+  font-style: normal;
+}

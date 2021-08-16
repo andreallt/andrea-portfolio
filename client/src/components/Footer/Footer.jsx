@@ -1,9 +1,10 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer">
-     <p>Andrea Footer</p>
+     <Link to={`/login`}>...</Link>
     </div>
   );
 }

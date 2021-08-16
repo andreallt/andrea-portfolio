@@ -11,7 +11,7 @@ export const register = async (adminData) =>{
 }
 
 export const login = async (adminData) => {
-  const res = await api.post("/admins/login", { admin: adminData })
+  const res = await api.post("/admin/login", { admin: adminData })
   const { token } = res.data
   if (token) {
     localStorage.setItem('authToken', token)
@@ -20,12 +20,11 @@ export const login = async (adminData) => {
   }
 }
 
-
 export const verify = async () => {
   const token = localStorage.getItem('authToken')
   if (token) {
     api.defaults.headers.common.authorization = `Bearer ${token}`
-    const res = await api.get("/admins/verify")
+    const res = await api.get("/admin/verify")
     return res.data
   }
 }

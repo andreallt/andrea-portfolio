@@ -1,0 +1,40 @@
+.dev-projects{
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 30px;
+}
+
+.dev-project{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  }
+  
+  .dev-image{
+  width: 500px;
+  margin-top: -15px;
+  }
+  
+  .dev-name{
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .d-buttons{
+    display: flex;
+  }
+
+  .dev-button{
+    height: 20px;
+    width: 80px;
+    text-transform: capitalize;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+
+  .dev-button:hover{
+    background-color: #5F87EC;
+  }

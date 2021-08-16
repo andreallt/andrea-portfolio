@@ -15,8 +15,8 @@ const DevProjects = (props) => {
   }, [])
 
   return (
-    <Layout>
-   <div className='designs'>
+    <Layout admin={props.admin}>
+   <div className='dev-projects'>
         {devs.map((dev, index) => {
           return (
             < DevProject
@@ -24,6 +24,7 @@ const DevProjects = (props) => {
               image_url={dev.image_url}
               github_url={dev.github_url}
               web_url={dev.web_url}
+              id={dev.id}
               key={index}
             />
           )

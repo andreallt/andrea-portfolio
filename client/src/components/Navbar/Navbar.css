@@ -1,0 +1,13 @@
+nav{
+  display: flex;
+  width: 90vw;
+  justify-content: flex-end;
+  margin-top: -110px;
+}
+
+.main-link{
+  margin: 0 30px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+

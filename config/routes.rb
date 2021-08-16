@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   resources :design_projects
   
   
+  get "/admin/verify", to: "admins#verify"
+  post "/admin/login", to: "admins#login"
   resources :admins
-  post "/admins/login", to: "users#login"
-  get "/admins/verify", to: "users#verify"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

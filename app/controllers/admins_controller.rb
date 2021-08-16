@@ -39,7 +39,7 @@ class AdminsController < ApplicationController
 
   # POST /admin/login
   def login
-    admin = Admin.find_by(email: admin_login_params[:email])
+    admin = Admin.find_by(name: admin_login_params[:name])
     if admin && admin.authenticate(admin_login_params[:password])
       token = create_token(admin.id)
       render json: {
@@ -64,7 +64,7 @@ class AdminsController < ApplicationController
   end
 
   def admin_login_params
-    params.require(:admin).permit(:email, :password)
+    params.require(:admin).permit(:name, :password)
   end
 
   def create_token(admin_id)
