@@ -54,6 +54,7 @@ const DesignProjectEdit = (props) => {
         />
         <section className="form-div">
         <form className="edit-form" onSubmit={handleSubmit}>
+          <label> Image -> </label>
           <input
             className="edit-image-1"
             placeholder="Main Image"
@@ -62,6 +63,7 @@ const DesignProjectEdit = (props) => {
             required
             onChange={handleChange}
           />
+          <label> Detail -> </label>
           <textarea
             className="edit-detail"
             placeholder="Detail"
@@ -70,6 +72,7 @@ const DesignProjectEdit = (props) => {
             required
             onChange={handleChange}
           />
+          <label> Link -> </label>
           <input
             className="e-url"
             placeholder="Image"
@@ -77,6 +80,7 @@ const DesignProjectEdit = (props) => {
             name="e_url"
             onChange={handleChange}
           />
+          <label> Extra image -> </label>
           <input
             className="edit-image-2"
             placeholder="Image"
@@ -84,6 +88,7 @@ const DesignProjectEdit = (props) => {
             name="image_2"
             onChange={handleChange}
           />
+          <label> Extra image -> </label>
           <input
             className="edit-image-3"
             placeholder="Image"
