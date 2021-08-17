@@ -4,7 +4,7 @@ import Layout from "../../components/Layout/Layout";
 import { getDesign, deleteDesign } from "../../service/designProject";
 import { useParams, Link } from "react-router-dom";
 
-const DesignProjectDetail = (props, {admin}) => {
+const DesignProjectDetail = (props) => {
   const [desDetail, setDesDetail] = useState(null);
   const [isLoaded, setLoaded] = useState(false);
   const { id } = useParams();
@@ -25,7 +25,7 @@ const DesignProjectDetail = (props, {admin}) => {
   return (
     <Layout admin={props.admin} >
       <div className="des-detail">
-        {admin ? 
+        {props.admin ? 
       <div className="button-container">
           <Link
             className="e-button"
@@ -39,7 +39,7 @@ const DesignProjectDetail = (props, {admin}) => {
           >
             Delete
           </Link>
-        </div> : <></>}
+        </div> : null }
 
         <div className="main">
         <img
