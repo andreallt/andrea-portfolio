@@ -3,7 +3,11 @@
   grid-template-columns: 1fr 1fr;
   width: 40vw;
   height: 40vw;
+  margin-top: 150px;
+  margin: 150px auto;
+  background-color: white;
 }
+
 
 .login-label{
   display: flex;
@@ -16,4 +20,12 @@
 .login-form{
 display: flex;
 flex-direction: column;
+}
+
+#loginb{
+  color: black;
+  background-color: chartreuse;
+  font-weight: 700;
+  width: 40px;
+  height: 20px;
 }

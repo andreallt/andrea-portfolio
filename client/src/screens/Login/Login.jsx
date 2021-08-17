@@ -51,8 +51,13 @@ const Login = (props) => {
     <Layout admin={props.admin}>
     <div className='login-container'>
     <h3>LogIn</h3>
-    <form onSubmit={LetMeIn}>
-    <label>Name</label>
+
+    <section className="login-label">
+    <label>Name --> </label>
+    <label>Password --> </label>
+    </section>
+
+    <form className="login-form" onSubmit={LetMeIn}>
       <input
         required
         type='text'
@@ -61,7 +66,6 @@ const Login = (props) => {
         placeholder='Hi Andy!'
         onChange={handleChange}
       />
-      <label>Password</label>
       <input
         required
         name='password'
@@ -70,7 +74,7 @@ const Login = (props) => {
         placeholder='Password'
         onChange={handleChange}
       />
-      {/* {renderError()} */}
+      {renderError()}
       <button type='submit'>Login!</button>
     </form>
   </div>
