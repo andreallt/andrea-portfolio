@@ -1,10 +1,9 @@
 .addform-grid{
   margin-top: 150px;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  width: 70vw;
-  margin-left: 29vw;
-  margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 70vw;
+    margin-left: 27vw;
 }
 
 .add-form{
@@ -15,3 +14,34 @@
   height: 90vh;
 }
 
+#save-add{
+  width: 90px;
+  margin: 0  0 -55px 0;
+  color: black;
+  background-color: #E3AD6D;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  height: 20px;
+}
+
+#save-add:hover{
+  color: #E3AD6D;
+  background-color: white;
+}
+
+input{
+  height: 35px;
+}
+
+.add-div{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-style: italic;
+  font-size: small;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 10px;
+}
