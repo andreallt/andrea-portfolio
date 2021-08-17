@@ -47,3 +47,9 @@ input{
   font-weight: 700;
   height: 20px;
 }
+
+
+#loginb:hover{
+  background-color:black;
+  color:palegreen;
+}
