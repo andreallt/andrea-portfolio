@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <a href="https://www.linkedin.com/in/andrea-llano-tamayo/" target="_blank">
     <img className="logos" src="https://imgur.com/QRKRsnF.png" alt="linkedin"/>
     </a>
@@ -11,7 +11,7 @@ function Footer() {
     <a href="https://github.com/andreallt" target="_blank">
     <img className="logos" src="https://imgur.com/GQHDRqn.png" alt="github"/>
     </a>
-    </div>
+    </footer>
   );
 }
 

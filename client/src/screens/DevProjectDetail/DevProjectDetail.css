@@ -42,3 +42,59 @@ column-gap: 20px;
 .dev-detail-image{
   width: 100%;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+.dev-detail{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 50px 0 0 0;
+  }
+  
+  .dev-left{
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px ;
+    width: 100vw;
+  }
+  
+  .library{
+    font-size: 20px;
+    font-style: italic;
+    width: 90vw;
+    color: #5F87EC;
+    text-align: center;
+  }
+  
+  .dev-text{
+    width: 90vw;
+    font-size: 19px;
+  }
+  
+  
+  .dev-right{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dev-dname{
+    font-size: 30px;
+    margin: 5px 0 0 20px;
+    font-style: italic;
+  }
+  
+  .dev-detail-image{
+    width: 100%;
+  }
+
+  .d-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

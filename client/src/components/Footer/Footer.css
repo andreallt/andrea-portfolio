@@ -16,7 +16,6 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    margin: 30px 0 0 0;
 }
   
 .f-logos{
@@ -28,6 +27,5 @@
     width: 20px;
     margin: 0 5px;
   }
-
 
 }

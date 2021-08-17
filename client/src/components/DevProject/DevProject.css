@@ -48,6 +48,7 @@
       margin: 10px 3px;
       flex-direction: column;
       width: 100vw;
+      padding-bottom: 30px;
     }
     
     .dev-project{
