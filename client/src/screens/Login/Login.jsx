@@ -53,8 +53,8 @@ const Login = (props) => {
 
     <div className='login-container'>
     <section className="login-label">
-    <label>Name --> </label>
-    <label>Password --> </label>
+    <h3>Name --> </h3>
+    <h3>Password --> </h3>
     </section>
 
     <form className="login-form" onSubmit={LetMeIn}>
