@@ -49,8 +49,6 @@
 
 
 
-
-
 @media only screen and (max-width: 600px) {
 .addform-grid{
   margin-top: 50px;
@@ -81,8 +79,8 @@
 }
 
 #save-add:hover{
-  color: #E3AD6D;
-  background-color: white;
+  color: black;
+  background-color: #E3AD6D;
 }
 
 input{
