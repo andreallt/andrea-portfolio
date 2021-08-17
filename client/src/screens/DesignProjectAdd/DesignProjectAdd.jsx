@@ -51,54 +51,47 @@ const DesignProjectAdd = (props) => {
         </section>
         <form onSubmit={handleSubmit} className="add-form">
           <input
-            className="add-name"
-            placeholder="Name"
+            className="add"
             value={design.name}
             name="name"
             required
             onChange={handleChange}
           />
           <input
-            className="add-category"
-            placeholder="category"
+            className="add"
             value={design.category}
             name="category"
             required
             onChange={handleChange}
           />
           <input
-            className="add-image-1"
-            placeholder="Main Image"
+            className="add"
             value={design.image_1}
             name="image_1"
             required
             onChange={handleChange}
           />
           <textarea
-            className="add-detail"
-            placeholder="Detail"
+            className="add"
             value={design.detail}
             name="detail"
             required
             onChange={handleChange}
           />
           <input
-            className="e-url"
-            placeholder="Image"
+            className="add"
             value={design.e_url}
             name="e_url"
             onChange={handleChange}
           />
           <input
-            className="add-image-2"
-            placeholder="Image"
+            className="add"
             value={design.image_2}
             name="image_2"
             onChange={handleChange}
           />
           <input
-            className="add-image-3"
-            placeholder="Image"
+            className="add"
             value={design.image_3}
             name="image_3"
             onChange={handleChange}

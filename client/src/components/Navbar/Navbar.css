@@ -1,14 +1,30 @@
 nav{
   display: flex;
   width: 90vw;
-  justify-content: flex-end;
+  justify-content: space-around;
   margin-top: -110px;
 }
 
 .main-link{
   margin: 0 30px;
-  font-size: 27px;
+  font-size: 47px;
   text-transform: uppercase;
+}
+
+
+.nav{
+  display: flex;
+  align-content: space-around;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.vd-link{
+  margin-right: 100px;
+}
+
+.fd-link{
+  margin-right: 10px;
 }
 
 

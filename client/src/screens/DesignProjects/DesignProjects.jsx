@@ -20,6 +20,7 @@ const DesignProjects = (props) => {
         {designs.map((design, index) => {
           return (
             < Design
+              admin={props.admin}
               name={design.name}
               image_1={design.image_1}
               category={design.category}

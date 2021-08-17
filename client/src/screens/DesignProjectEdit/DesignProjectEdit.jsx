@@ -45,7 +45,7 @@ const DesignProjectEdit = (props) => {
   }
 
   return (
-    <Layout admin={props.admin}>
+    <Layout admin={props.admin} >
       <div className="edit-design">
         <img
           className="edit-design-image"

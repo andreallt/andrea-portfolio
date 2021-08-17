@@ -20,6 +20,7 @@ const DevProjects = (props) => {
         {devs.map((dev, index) => {
           return (
             < DevProject
+              admin={props.admin}
               name={dev.name}
               image_url={dev.image_url}
               github_url={dev.github_url}

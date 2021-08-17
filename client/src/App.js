@@ -37,13 +37,21 @@ function App() {
       <Route exact path="/design_projects">
         <DesignProjects admin={admin}/>
       </Route>
-      <Route exact path="/add" component={DesignProjectAdd} admin={admin}/>
-      <Route exact path="/design_projects/:id" component={DesignProjectDetail} admin={admin} />
-      <Route exact path="/design_projects/:id/edit" component={DesignProjectEdit} admin={admin}/>
-      <Route exact path="/developer_projects" admin={admin}>
+      <Route exact path="/add">
+      <DesignProjectAdd admin={admin}/>
+      </Route>
+      <Route exact path="/design_projects/:id" >
+      <DesignProjectDetail admin={admin}/>
+      </Route>
+      <Route exact path="/design_projects/:id/edit">
+      <DesignProjectEdit admin={admin}/>
+      </Route>
+      <Route exact path="/developer_projects">
         <DevProjects admin={admin}/>
       </Route>
-      <Route exact path="/developer_projects/:id" component={DevProjectDetail} admin={admin}/>
+      <Route exact path="/developer_projects/:id">
+      <DevProjectDetail admin={admin}/>
+      </Route>
           
     </div>
   );
