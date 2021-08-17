@@ -1,15 +1,15 @@
-import './Navbar.css'
+import './Navbar.css';
 import { NavLink } from "react-router-dom";
 
-const imIn = (
-  <>
-  <NavLink className="andy" to="/add">Add Project</NavLink>
+const home = (
+  <> 
   <NavLink className="andy" to="/logout">Sale Bye!</NavLink>
   </>
+
 )
 
 
-const NavBar = ({ admin }) => {
+const NavBar = () => {
   return (
     <nav>
       <div className="nav">

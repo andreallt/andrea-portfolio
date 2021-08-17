@@ -40,17 +40,9 @@ const DesignProjectAdd = (props) => {
   return (
     <Layout admin={props.admin}>
       <div className="addform-grid">
-        <section className="add-div">
-        <h3> Name      --> </h3>
-        <h3> Category  --> </h3>
-        <h3> Image   --> </h3>
-        <h3> Detail  --> </h3>
-        <h3> Link    --> </h3>
-        <h3> + Image --> </h3>
-        <h3> + Image --> </h3>
-        </section>
         <form onSubmit={handleSubmit} className="add-form">
           <input
+            placeholder="Name --> "
             className="add"
             value={design.name}
             name="name"
@@ -58,6 +50,7 @@ const DesignProjectAdd = (props) => {
             onChange={handleChange}
           />
           <input
+            placeholder="Category -->"
             className="add"
             value={design.category}
             name="category"
@@ -65,6 +58,7 @@ const DesignProjectAdd = (props) => {
             onChange={handleChange}
           />
           <input
+            placeholder="Image   -->"
             className="add"
             value={design.image_1}
             name="image_1"
@@ -72,6 +66,7 @@ const DesignProjectAdd = (props) => {
             onChange={handleChange}
           />
           <textarea
+           placeholder="Detail  -->"
             className="add"
             value={design.detail}
             name="detail"
@@ -79,18 +74,21 @@ const DesignProjectAdd = (props) => {
             onChange={handleChange}
           />
           <input
+          placeholder="Link    -->"
             className="add"
             value={design.e_url}
             name="e_url"
             onChange={handleChange}
           />
           <input
+            placeholder="+ Image -->"
             className="add"
             value={design.image_2}
             name="image_2"
             onChange={handleChange}
           />
           <input
+            placeholder="+ Image -->"
             className="add"
             value={design.image_3}
             name="image_3"

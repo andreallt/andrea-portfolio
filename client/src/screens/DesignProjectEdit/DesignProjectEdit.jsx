@@ -53,13 +53,6 @@ const DesignProjectEdit = (props) => {
           alt={design.name}
         />
         <div className="form-grid">
-        <section className="lable-div">
-        <h3> Image  --> </h3>
-        <h3> Detail  --> </h3>
-        <h3> Link    --> </h3>
-        <h3 id="pimg"> + Image --> </h3>
-        <h3> + Image --> </h3>
-        </section>
 
         <section className="form-div">
         <form className="edit-form" onSubmit={handleSubmit}>

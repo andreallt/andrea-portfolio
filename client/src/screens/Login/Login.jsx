@@ -51,11 +51,6 @@ const Login = (props) => {
     <Layout admin={props.admin}>
 
     <div className='login-container'>
-    <section className="login-label">
-    <h3>Name --> </h3>
-    <h3>Password --> </h3>
-    </section>
-
     <form className="login-form" onSubmit={LetMeIn}>
       <input
         required
