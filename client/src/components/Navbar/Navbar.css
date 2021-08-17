@@ -34,7 +34,7 @@ nav{
 
   nav{
     display: flex;
-    width: 100vw;
+    width: 90vw;
     margin-top: -55px;
     justify-content: flex-end;
   }

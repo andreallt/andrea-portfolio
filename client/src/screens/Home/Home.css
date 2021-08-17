@@ -1,0 +1,20 @@
+#home{
+    margin-top: 100px;
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+@media only screen and (max-width: 600px) {
+#home{
+  display: flex;
+    margin-top: 1px;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 40% 80px;
+}
+
+
+}
