@@ -1,0 +1,19 @@
+.login-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40vw;
+  height: 40vw;
+}
+
+.login-label{
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  font-style: italic;
+  width: 9vw;
+}
+
+.login-form{
+display: flex;
+flex-direction: column;
+}

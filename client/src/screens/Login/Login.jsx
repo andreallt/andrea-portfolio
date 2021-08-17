@@ -32,18 +32,18 @@ const Login = (props) => {
   logIn();
 }
     
-  // const renderError = () => {
-  //   const toggleForm = form.isError ? 'danger' : ''
-  //   if(form.isError){
-  //     return (
-  //       <button type='submit' className={toggleForm}>
-  //         {form.errorMsg}
-  //       </button>
-  //     )
-  //   } else {
-  //     return <button type='submit'>Login!</button>
-  //   }
-  // }
+  const renderError = () => {
+    const toggleForm = form.isError ? 'danger' : ''
+    if(form.isError){
+      return (
+        <button type='submit' className={toggleForm}>
+          {form.errorMsg}
+        </button>
+      )
+    } else {
+      return <button type='submit'>Login!</button>
+    }
+  }
 
   const {name, password} = form 
 
