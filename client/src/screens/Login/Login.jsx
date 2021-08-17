@@ -41,7 +41,7 @@ const Login = (props) => {
         </button>
       )
     } else {
-      return <button type='submit'>Login!</button>
+      return <button id="loginb" type='submit'>ENTRALE</button>
     }
   }
 
@@ -75,7 +75,6 @@ const Login = (props) => {
         onChange={handleChange}
       />
       {renderError()}
-      <button id="loginb" type='submit'>ENTRALE</button>
     </form>
   </div>
   </Layout>
