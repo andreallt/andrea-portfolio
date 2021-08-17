@@ -23,7 +23,7 @@ const DesignProjectDetail = (props) => {
   }
 
   return (
-    <Layout admin={props.admin}>
+    <Layout admin={props.admin} >
       <div className="des-detail">
       <div className="button-container">
           <Link
