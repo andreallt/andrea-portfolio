@@ -74,3 +74,87 @@ textarea {
   align-items: flex-end;
   justify-content: space-between;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .edit-design{
+    margin: 50px 0 50px 0;
+  }
+  
+  .edit-design-image {
+    width: 100vw;
+    height: 100px;
+    object-fit: cover;
+    object-position: 10% 60%;
+    margin-bottom: 50px;
+  }
+  
+  .form-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100vw;
+    margin-left: 2vw;
+  }
+  
+  .form-div{
+    display: flex;
+    height: 50vh;
+    background-color: white;
+    width: 80vw;
+  }
+  
+  
+  .edit-form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: #fff;
+      justify-content: space-around;
+  }
+  
+  input{
+      width: 99%;
+      background-color: #a3a3a3;
+      text-decoration: none;
+      border: none;
+      font-family: 'Istok Web';
+  }
+  
+  textarea {
+    background-color: #a3a3a3;
+    text-decoration: none;
+    border: none;
+    font-family: 'Istok Web';
+  }
+  
+  #save-edit{
+    width: 90px;
+    margin: 0  0 -55px 0;
+    color: black;
+    background-color: #E3AD6D;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    height: 20px;
+  }
+  
+  #save-edit:hover{
+    color:black;
+    background-color: #E3AD6D;
+  }
+  
+  .lable-div{
+    width: 20vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-style: italic;
+    font-size: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+  }
+
+}
