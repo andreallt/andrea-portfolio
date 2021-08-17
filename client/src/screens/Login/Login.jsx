@@ -49,9 +49,9 @@ const Login = (props) => {
 
   return(
     <Layout admin={props.admin}>
-    <div className='login-container'>
     <h3>LogIn</h3>
 
+    <div className='login-container'>
     <section className="login-label">
     <label>Name --> </label>
     <label>Password --> </label>
