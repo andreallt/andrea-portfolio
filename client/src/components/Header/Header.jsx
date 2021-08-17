@@ -13,7 +13,7 @@ const Header = ({ admin }) => (
        <Link id="andy" to="/add">Mas Projects</Link>
        <Link id="andy" to="/logout">Sale Bye!</Link> Hola! Como estas?
        </div> : <p></p>}
-       <a href="https://www.linkedin.com/in/andrea-llano-tamayo/" target="_blank">
+      <a href="https://www.linkedin.com/in/andrea-llano-tamayo/" target="_blank">
       <img className="link-logos" src="https://imgur.com/QRKRsnF.png" alt="linkedin"/>
       </a>
       <a href="https://github.com/andreallt" target="_blank">

@@ -13,9 +13,8 @@ const NavBar = ({ admin }) => {
   return (
     <nav>
       <div className="nav">
-      <NavLink className="main-link" to="/">Home</NavLink>
-      <NavLink className="main-link" to="/design_projects">Visual Designer</NavLink>
-      <NavLink className="main-link" to="/developer_projects">Full-Stack Devloper</NavLink>
+      <NavLink className="vd-link" to="/design_projects">Visual Designer</NavLink>
+      <NavLink className="fd-link" to="/developer_projects">Full-Stack Devloper</NavLink>
        </div>
     </nav>
   );

@@ -11,3 +11,39 @@ nav{
   text-transform: uppercase;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+
+  nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+  
+  .main-link{
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .vd-link{
+    margin-top: 10px;
+    order:2;
+  }
+
+  .fd-link{
+    margin-top: 10px;
+    order:1;
+  }
+  
+
+
+}

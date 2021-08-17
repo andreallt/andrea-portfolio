@@ -19,7 +19,7 @@ const DesignProjectDetail = (props) => {
   }, [id]);
 
   if (!isLoaded) {
-    return <h1>Loading...</h1>;
+    return <h1> Loading... </h1>;
   }
 
   return (
@@ -38,7 +38,7 @@ const DesignProjectDetail = (props) => {
           >
             Delete
           </Link>
-        </div>
+        </div> 
 
         <div className="main">
         <img

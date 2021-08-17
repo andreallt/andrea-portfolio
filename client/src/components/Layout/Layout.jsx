@@ -7,7 +7,7 @@ const Layout = (props) => (
   <div className="Layout">
     <Header admin={props.admin}/>
     <NavBar admin={props.admin} />
-    <div className="layout-children">{props.children}</div>
+    <div className="layout-children" admin={props.admin}>{props.children} </div>
     <Footer />
   </div>
 );

@@ -19,7 +19,7 @@ const DevProjectDetail = (props) => {
   }, [id]);
 
   if (!isLoaded) {
-    return <h1>Loading...</h1>;
+    return <h1> Loading... </h1>;
   }
 
   return (
