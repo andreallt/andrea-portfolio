@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 40vw;
-  height: 20vw;
+  height: 30vw;
   margin: 150px auto;
   align-items: center;
   align-content: space-between;
@@ -26,8 +26,10 @@ background-color: white;
 
 #loginb{
   color: black;
-  background-color: chartreuse;
+  background-color:palegreen;
   font-weight: 700;
-  width: 40px;
+  width: 90px;
   height: 20px;
+  border: none;
+  border-radius: 3px;
 }
