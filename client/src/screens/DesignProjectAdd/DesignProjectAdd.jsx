@@ -74,7 +74,7 @@ const DesignProjectAdd = (props) => {
             required
             onChange={handleChange}
           />
-          <input
+          <textarea
             className="add-detail"
             placeholder="Detail"
             value={design.detail}
