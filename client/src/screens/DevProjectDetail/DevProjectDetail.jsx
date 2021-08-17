@@ -29,8 +29,8 @@ const DevProjectDetail = (props) => {
           <div className="library">{devDetail.library}</div>
           <p className="dev-text">{devDetail.detail}</p>
         <div className="d-buttons">
-          <button href={devDetail.github_url} className="dev-button">GITHUB</button>
-          <button  HREF={devDetail.web_url} className="dev-button">SITE</button>
+         <a href={devDetail.github_url} target="_blank"><button className="dev-button">GITHUB</button></a> 
+         <a href={devDetail.web_url} target="_blank" > <button className="dev-button">SITE</button></a>
         </div>
         </div>
 
