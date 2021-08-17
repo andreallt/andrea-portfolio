@@ -39,3 +39,52 @@
   .dev-button:hover{
     background-color: #5F87EC;
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .dev-projects{
+      display: flex;
+      margin: 10px 3px;
+      flex-direction: column;
+      width: 100vw;
+    }
+    
+    .dev-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+      }
+      
+      .dev-image{
+      width: 98%;
+      margin-top: -15px;
+      }
+      
+      .dev-name{
+        display: none;
+      }
+    
+      .d-buttons{
+        display: flex;
+      }
+    
+      .dev-button{
+        height: 20px;
+        width: 80px;
+        text-transform: capitalize;
+        margin: 5px 5px 5px 5px;
+        background-color:#5F87EC;
+        border: none;
+        border-radius: 3px;
+        font-weight: 700;
+      }
+    
+      .dev-button:hover{
+        background-color: #5F87EC;
+      }
+
+
+
+  }
