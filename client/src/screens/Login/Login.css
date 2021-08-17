@@ -13,23 +13,37 @@
 .login-label{
   display: flex;
   flex-direction: column;
-  font-size: small;
-  font-style: italic;
+  justify-content: space-around;
   width: 9vw;
+  margin-left: 100px;
+  flex-direction: column;
+  color: #fff;
+  font-style: italic;
+  font-size: small;
+  align-items: flex-end;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .login-form{
-display: flex;
-flex-direction: column;
-background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: space-evenly;
+  
 }
 
+input{
+  height: 35px;
+}  
+
 #loginb{
-  color: black;
   background-color:palegreen;
-  font-weight: 700;
   width: 90px;
-  height: 20px;
+  margin: 0  0 -55px 0;
+  color: black;
   border: none;
   border-radius: 3px;
+  font-weight: 700;
+  height: 20px;
 }
