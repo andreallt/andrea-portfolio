@@ -25,12 +25,19 @@ nav{
   margin-right: 100px;
 }
 
+.vd-link:hover{
+color: #E3AD6D;
+}
+
+
 .fd-link{
   font-size: 30px;
   margin-right: 10px;
 }
 
-
+.fd-link:hover{
+color:#5F87EC;
+}
 
 @media only screen and (max-width: 600px) {
 

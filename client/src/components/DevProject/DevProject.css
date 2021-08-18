@@ -30,15 +30,19 @@
     width: 80px;
     text-transform: capitalize;
     margin: 10px 30px 5px 5px;
-    background-color: white;
+    background-color: #5F87EC;
     border: none;
     border-radius: 3px;
     font-weight: 700;
   }
 
   .dev-button:hover{
-    background-color: #5F87EC;
+    background-color: black;
+    color:#5F87EC;
   }
+
+  
+
 
 
   @media only screen and (max-width: 600px) {
@@ -71,21 +75,20 @@
         display: flex;
       }
     
-      .dev-button{
+      .dev-button {
         height: 20px;
         width: 80px;
         text-transform: capitalize;
         margin: 5px 5px 5px 5px;
-        background-color:#5F87EC;
         border: none;
         border-radius: 3px;
         font-weight: 700;
       }
     
       .dev-button:hover{
-        background-color: #5F87EC;
+        background-color: black;
+        color:#5F87EC;
       }
 
-
-
+     
   }

@@ -25,22 +25,7 @@ const DesignProjectDetail = (props) => {
   return (
     <Layout admin={props.admin} >
       <div className="des-detail">
-        {props.admin ? 
-      <div className="button-container">
-          <Link
-            className="e-button"
-            to={`/design_projects/${desDetail.id}/edit`}
-          >
-            Edit
-          </Link>
-          <Link
-            className="e-button"
-            onClick={() => deleteDesign(desDetail.id)}
-          >
-            Delete
-          </Link>
-        </div> : null }
-
+      
         <div className="main">
         <img
           className="main-image"
@@ -64,6 +49,23 @@ const DesignProjectDetail = (props) => {
           alt={desDetail.name}
         />
         </div>
+
+        {props.admin ? 
+        <div className="button-container">
+          <Link
+            className="e-button"
+            to={`/design_projects/${desDetail.id}/edit`}
+          >
+            Edit
+          </Link>
+          <Link
+            className="e-button"
+            onClick={() => deleteDesign(desDetail.id)}
+          >
+            Delete
+          </Link>
+        </div> : null }
+
       </div>
     </Layout>
   );

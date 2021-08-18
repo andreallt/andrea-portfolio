@@ -10,8 +10,8 @@ const DevProject = (props) => {
           <img src={props.image_url} alt={props.name} className="dev-image" />
       </Link>    
       <div className="d-buttons">
-          <a href={props.github_url} target="_blank" ><button className="dev-button" >GITHUB</button> </a>
-          <a href={props.web_url}  target="_blank"><button className="dev-button">SITE</button></a>
+          <a id="button" href={props.github_url} target="_blank" ><button className="dev-button" >GITHUB</button> </a>
+          <a id="button" href={props.web_url}  target="_blank"><button className="dev-button">SITE</button></a>
        </div>
           </div>
     </>
