@@ -12,7 +12,7 @@ const Header = ({ admin }) => (
       {admin ? <div className="welcome"> 
        <Link id="andy" to="/add">MAS PROJECTS</Link>
        <Link id="andy" to="/logout">SALE BYE!</Link> Hola Andrea!
-       </div> : <p></p>}
+       </div> : null }
       <a href="https://www.linkedin.com/in/andrea-llano-tamayo/" target="_blank">
       <img className="link-logos" src="https://imgur.com/QRKRsnF.png" alt="linkedin"/>
       </a>

@@ -35,7 +35,7 @@ const DesignProjectDetail = (props) => {
         <p className="detail">{desDetail.detail}</p>
         </div>
       
-       {desDetail.e_url == "" ? <div ></div> : <iframe src={desDetail.e_url} className="e-media"></iframe>}
+       {desDetail.e_url == "" ? null : <iframe src={desDetail.e_url} className="e-media"></iframe>}
         
         <div className="images">
         <img
