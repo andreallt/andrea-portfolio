@@ -7,11 +7,11 @@
 }
 
 .about{
-  display: flex;
+   display: flex;
   width: 50vw;
   font-style: italic;
-  font-size: 20px;
-  margin: 30px auto 0 auto;
+  font-size: 19px;
+  margin: 30px 30vw 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -23,6 +23,15 @@
     object-fit: cover;
     object-position: 40% 80px;
 }
+
+.about{
+display: flex;
+ width: 80vw;
+ font-style: italic;
+ font-size: 12px;
+ margin: 0 auto;
+}
+
 
 
 }
