@@ -19,7 +19,7 @@ const DesignProjectDetail = (props) => {
   }, [id]);
 
   if (!isLoaded) {
-    return <h1> Loading... </h1>;
+    return <img src="https://giphy.com/gifs/kim-novak-tXL4FHPSnVJ0A" alt="loading"/>;
   }
 
   return (
