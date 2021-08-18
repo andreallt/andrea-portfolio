@@ -6,8 +6,10 @@ header{
 }
 
 .welcome{
+  display: flex;
   font-style: italic;
   font-size: 19px;
+  align-items: center;
 }
 
 .left{
@@ -22,10 +24,11 @@ header{
 }
 
 .right{
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin: -15vh 0 0 0;
 }
 
 .link-logos{
@@ -72,11 +75,11 @@ margin: 0 15px 0 15px;
   }
   
   .right{
+    margin: 0 0 0;
     order: 1;
     display: flex;
-    margin-right: 15px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
   }
   
   .link-logos{

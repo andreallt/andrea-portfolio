@@ -10,8 +10,9 @@ const Header = ({ admin }) => (
       </div>
       <div className="right">
       {admin ? <div className="welcome"> 
+       <p> Hola Hola! </p>
        <Link id="andy" to="/add">MAS PROJECTS</Link>
-       <Link id="andy" to="/logout">SALE BYE!</Link> Hola Andrea!
+       <Link id="andy" to="/logout">SALE BYE!</Link> 
        </div> : null }
       <a href="https://www.linkedin.com/in/andrea-llano-tamayo/" target="_blank">
       <img className="link-logos" src="https://imgur.com/QRKRsnF.png" alt="linkedin"/>
