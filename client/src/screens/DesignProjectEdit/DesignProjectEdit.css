@@ -29,8 +29,7 @@
     flex-direction: column;
     width: 70vw;
     background-color: #fff;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 input{
