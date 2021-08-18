@@ -43,6 +43,21 @@ column-gap: 20px;
   width: 100%;
 }
 
+.colab{
+display: flex;
+flex-direction: column;
+font-size: 19px;
+}
+.c-title{
+  color:#5F87EC ;
+  font-weight: 700;
+}
+
+.col{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
 
 
 

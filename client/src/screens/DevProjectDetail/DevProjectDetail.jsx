@@ -28,6 +28,14 @@ const DevProjectDetail = (props) => {
         <div className="dev-left">
           <div className="library">{devDetail.library}</div>
           <p className="dev-text">{devDetail.detail}</p>
+        { id === "2" ?
+          <div className="colab"> 
+         <h2 className="c-title">Collaborators</h2>
+         <a  className="col" href="https://ashleyhuynhportfolio.netlify.app/home" target="_blank" > 🦁 Ashley Huynh,</a>
+         <a className="col" href="https://robison-portfolio.netlify.app" target="_blank"> 🐛 John Robison</a>
+
+          </div> : null
+          }
         <div className="d-buttons">
          <a href={devDetail.github_url} target="_blank"><button className="dev-button">GITHUB</button></a> 
          <a href={devDetail.web_url} target="_blank" > <button className="dev-button">SITE</button></a>
