@@ -17,19 +17,19 @@
 @media only screen and (max-width: 600px) {
 #home{
   display: flex;
-    margin-top: 1px;
+    margin-top: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    object-position: 40% 80px;
+    object-position: 50% 80px;
 }
 
 .about{
-display: flex;
+ display: flex;
  width: 80vw;
  font-style: italic;
  font-size: 12px;
- margin: 0 auto;
+ margin: 10px auto -50px;
 }
 
 
