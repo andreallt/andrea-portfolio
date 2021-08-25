@@ -14,7 +14,7 @@ const NavBar = () => {
     <nav>
       <div className="nav">
       <NavLink className="vd-link" to="/design_projects">Visual Designer</NavLink>
-      <NavLink className="fd-link" to="/developer_projects">Full-Stack Devloper</NavLink>
+      <NavLink className="fd-link" to="/developer_projects">Full-Stack Developer</NavLink>
        </div>
     </nav>
   );
