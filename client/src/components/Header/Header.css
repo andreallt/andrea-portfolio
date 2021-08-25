@@ -24,11 +24,11 @@ header{
 }
 
 .right{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 15px;
-    margin: -15vh 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* margin: -15vh 0 0; */
+  height: 10px;
 }
 
 .link-logos{
