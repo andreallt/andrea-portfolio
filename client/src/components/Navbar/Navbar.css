@@ -16,12 +16,12 @@ nav{
 .nav{
   display: flex;
   align-content: space-around;
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 20px;
 }
 
 .vd-link{
-  font-size:30px;
+  font-size:20px;
   margin-right: 100px;
 }
 
@@ -31,13 +31,20 @@ color: #E3AD6D;
 
 
 .fd-link{
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 10px;
 }
 
 .fd-link:hover{
 color:#5F87EC;
 }
+
+.r-link{ font-size: 20px;
+  margin-right: 10px;}
+
+  .r-link:hover{
+    color:#ff08ca;
+    }
 
 @media only screen and (max-width: 600px) {
 
