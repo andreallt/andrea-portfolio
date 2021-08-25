@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="nav">
       <NavLink className="vd-link" to="/design_projects">Visual Designer</NavLink>
       <NavLink className="fd-link" to="/developer_projects">Full-Stack Developer</NavLink>
-      <a className="r-link" href="https://drive.google.com/file/d/1O31zgsx6n_gBY6nEKZyEosiQUpfnCnHA/view?usp=sharing">Resumé</a>
+      <a className="r-link" href="https://drive.google.com/file/d/1O31zgsx6n_gBY6nEKZyEosiQUpfnCnHA/view?usp=sharing" target="_blank">Resumé</a>
        </div>
     </nav>
   );
