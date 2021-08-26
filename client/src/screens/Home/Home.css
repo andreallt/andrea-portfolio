@@ -49,5 +49,12 @@
 width: 20vw;
 }
 
+.icon{
+  transition: all .2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.5); 
+}
 
 }
