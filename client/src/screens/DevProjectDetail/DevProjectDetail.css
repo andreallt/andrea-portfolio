@@ -81,9 +81,9 @@ font-size: 19px;
   .library{
     font-size: 19px;
     font-style: italic;
-    width: 59vw;
+    width: 85vw;
     color: #5F87EC;
-    text-align: center;
+    text-align: right;
   }
   
   .dev-text{
