@@ -26,6 +26,11 @@
   width: 30px;
   border-radius: 6px;
   margin: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.5); 
 }
 @media only screen and (max-width: 600px) {
 #home{
@@ -47,14 +52,6 @@
 
 .icons{
 width: 20vw;
-}
-
-.icon{
-  transition: all .2s ease-in-out;
-}
-
-.icon:hover {
-  transform: scale(1.5); 
 }
 
 }
