@@ -19,7 +19,7 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
   
 .f-logos{
@@ -28,7 +28,7 @@
   
   .logos{
     display: flex;
-    width: 20px;
+    width: 30px;
     margin: 0 30px;
   }
 
