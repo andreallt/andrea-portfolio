@@ -50,9 +50,10 @@ color:#5F87EC;
 
   nav{
     display: flex;
-    width: 100vw;
-    margin-top: -70px;
-    justify-content: flex-end;
+    width: 60vw;
+    justify-content: flex-start;
+    /* padding-right: 300px; */
+    margin: -70px 0px 0px 220px;
   }
   
   .main-link{
@@ -65,7 +66,7 @@ color:#5F87EC;
     flex-direction: column;
     align-items: flex-start;
     font-size: 19px;
-    margin-right: 18vw;
+    margin-left: 0px;
   }
 
   .vd-link{

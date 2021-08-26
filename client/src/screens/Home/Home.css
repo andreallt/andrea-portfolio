@@ -52,18 +52,18 @@
 
 .icons{
   display: flex;
-  width: 40vw;
+  width: 60vw;
   align-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 50vw;
+  margin-left: 30vw;
   margin-top: 60px;
 }
   
 
 
 .icon{
-  width: 10px;
+  width: 20px;
   border-radius: 6px;
   margin: 10px;
   transition: all .2s ease-in-out;
