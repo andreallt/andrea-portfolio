@@ -16,6 +16,7 @@ const DesignProjects = (props) => {
 
   return (
     <Layout admin={props.admin}>
+       
    <div className='designs'>
         {designs.map((design, index) => {
           return (
