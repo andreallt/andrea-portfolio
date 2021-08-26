@@ -64,7 +64,7 @@
 .icon{
   width: 20px;
   border-radius: 6px;
-  margin: 10px;
+  margin: 10px 10px 0 10px;
   transition: all .2s ease-in-out;
   
 }
