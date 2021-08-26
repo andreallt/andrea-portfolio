@@ -51,7 +51,23 @@
 }
 
 .icons{
-width: 20vw;
+  display: flex;
+  width: 40vw;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+  margin-top: 60px;
+}
+  
+
+
+.icon{
+  width: 10px;
+  border-radius: 6px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+  
 }
 
 }
