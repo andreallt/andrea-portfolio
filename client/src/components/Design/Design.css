@@ -17,6 +17,11 @@
 width: 31vw;
 }
 
+.design-image:hover{
+  filter: brightness(110%);
+  transform: scale(1.01); 
+  }
+
 .category{
   font-style: italic;
   margin-top: -5px;
