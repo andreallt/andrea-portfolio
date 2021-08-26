@@ -51,7 +51,7 @@ color:#5F87EC;
   nav{
     display: flex;
     width: 100vw;
-    margin-top: -53px;
+    margin-top: -70px;
     justify-content: flex-end;
   }
   
@@ -79,6 +79,9 @@ color:#5F87EC;
     margin-top: 2px;
     order:1;
   }
+
+  .r-link{ font-size: 19px;
+    margin-top: 2px;}
   
 
 
